@@ -56,23 +56,24 @@ img{
 
 .footer{
     background-color: darkgreen;
-    color: goldenrod;
+    color: gold;
     width: 100%;
     height: 100px; 
     text-align: center;
     position:fixed;
     bottom:0;
     left: 0;
+    font-size: 2em;
 }
 
 .mention{
     float: left;
-    padding-left: 5%;
+    padding-left: 10%;
     margin-top: 40px;
 }
 
 .contact{
     float: right;
-    padding-right: 5%;
+    padding-right: 10%;
     margin-top: 40px;
 }
