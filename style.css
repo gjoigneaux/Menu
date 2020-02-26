@@ -24,9 +24,7 @@ html, body{
 
 /* conteu */
 
-.menu{
-    width: 100%;
-}
+
 
 .menuhaut, .menubas{
     display: flex;
