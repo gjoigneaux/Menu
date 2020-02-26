@@ -1,0 +1,69 @@
+html, body{
+    width: 100%;
+    height: auto;
+    background-color: grey;
+}
+
+/* HEADER */
+
+.header{
+    background-color: darkgreen;
+    text-align: center;
+    font-size: 4em;
+    font-weight:bold;
+    color: goldenrod;
+    margin-bottom: 25px;
+}
+
+
+/* CONTAINER */
+
+.menu{
+
+    width: 100%;
+}
+
+.menuhaut, .menubas{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 40%;
+    margin-bottom: 25px;
+}
+
+
+.prochainement{
+    background-color: darkgreen;
+    color: goldenrod;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
+    width: 100px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+/*footer*/
+
+.footer{
+    background-color: darkgreen;
+    color: goldenrod;
+    width: 100%;
+    height: 100px; 
+    text-align: center;
+}
+
+.mention{
+    float: left;
+    padding-left: 5%;
+    margin-top: 40px;
+}
+
+.contact{
+    float: right;
+    padding-right: 5%;
+    margin-top: 40px;
+}
