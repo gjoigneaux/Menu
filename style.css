@@ -4,12 +4,14 @@ html, body{
 /* HEADER */
 
 .header{
+    position: absolute;
+    top: 0;
+    left: 0;
     background-color: darkgreen;
     height: 100px;
-    margin-bottom: 25px;
     text-align: center;
     display: flex;
-    width: 100%;
+    width: 100%;  
 }
 
 .header span{
@@ -22,6 +24,7 @@ html, body{
 /* conteu */
 
 .menu{
+    margin-top: 125px;
     display: flex;
     justify-content: space-around;
 }
@@ -41,7 +44,7 @@ img{
     margin: auto;
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 125px;
 }
 
 /*footer*/
