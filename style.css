@@ -3,12 +3,6 @@ html, body{
     height: 100%;
 }
 
-.container{
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-
 /* HEADER */
 
 .header{
@@ -34,7 +28,7 @@ html, body{
 
 .contenu{
     position: absolute;
-    top: 25%;
+    margin-top: 140px;
 }
 
 .menu{
