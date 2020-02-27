@@ -1,6 +1,12 @@
 html, body{
     background-color: whitesmoke;
 }
+
+.container{
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
 /* HEADER */
 
 .header{
@@ -26,6 +32,7 @@ html, body{
 
 .contenu_top{
     margin-top: 140px;
+    flex: 1;
 }
 
 .menu{
