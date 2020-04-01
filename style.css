@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -88,11 +93,21 @@
   left: 0;
   right: 0;
   font-size: 1.75em;
+  display: flex;
+}
+@media (min-width: 767px) {
+  .footer__mention {
+    float: left;
+    margin-left: 10%;
+  }
+  .footer__contact {
+    float: right;
+    margin-right: 10%;
+  }
 }
 .footer__contact, .footer__mention {
   animation: thing 3s infinite;
   margin: auto;
-  margin-top: 12.5px;
 }
 @keyframes thing {
   0% {
