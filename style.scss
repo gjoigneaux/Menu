@@ -1,0 +1,119 @@
+@import 'mixin.scss';
+  
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: whitesmoke;
+  color: gold;
+  width: 80%;
+  min-width: 300px;
+  margin: auto;
+}
+
+.header{
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: darkgreen;
+  height: 100px;
+  min-width: 300px;
+  text-align: center;
+  display: flex; 
+  span{
+    font-weight:bold;
+    margin: auto;
+    font-size: 3em;
+  }
+}
+
+.contenu{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.menu{
+  @include breakpoint(small){
+    display: flex;
+    justify-content: space-around;
+  }
+  &-1, &-2, &-3, &-4{
+    width: 300px;
+    height: 500px;
+    border: solid black 1px;
+    margin: auto;
+    margin-bottom: 30px;
+    &__logo{
+      color: -webkit-linear-gradient(red, yellow);
+    }
+  }
+  &-1{
+    background-color: rosybrown;
+  }
+}
+
+.prochainement{
+  background-color: darkgreen;
+  font-size: 1.5em;
+  padding: 10px 5px 10px 5px;
+  text-align: auto;
+  width: 250px;
+  margin: auto;
+  border-radius: 10px;
+  overflow: hidden;    
+  &:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: bottom;
+    animation: ellipsis steps(4,end) 3000ms infinite;      
+    content: "\2026"; /* ascii code for the ellipsis character */
+    width: 0px;
+  }
+  @keyframes ellipsis {
+    to {
+    width: 1.25em;    
+    }
+  }
+}
+
+.footer{
+  background-color: darkgreen;
+  height: 100px; 
+  min-width: 300px;
+  text-align: center;
+  position:  sticky;
+  bottom:0;
+  left: 0;
+  right: 0;
+  font-size: 1.75em;
+  &__contact, &__mention{
+    animation: thing 3s infinite;
+    margin: auto;
+    margin-top: 12.5px;
+  }
+  @keyframes thing {
+    0%{transform: rotate(0deg)}
+    5%{transform: rotate(-5deg)}
+    10%{transform: rotate(5deg)}
+    15%{transform: rotate(-5deg)}
+    20%{transform: rotate(5deg)}
+    25%{transform: rotate(-5deg)}
+    30%{transform: rotate(5deg)}
+    35%{transform: rotate(-5deg)}
+    40%{transform: rotate(5deg)}
+    45%{transform: rotate(-5deg)}
+    50%{transform: rotate(5deg)}
+    55%{transform: rotate(-5deg)}
+    60%{transform: rotate(5deg)}
+    65%{transform: rotate(-5deg)}
+    70%{transform: rotate(5deg)}
+    75%{transform: rotate(-5deg)}
+    80%{transform: rotate(5deg)}
+    85%{transform: rotate(-5deg)}
+    90%{transform: rotate(5deg)}
+    95%{transform: rotate(-5deg)}
+    100%{transform: rotate(5deg)}
+  }
+}
