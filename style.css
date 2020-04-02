@@ -269,7 +269,7 @@ body {
   position: relative;
   margin: auto;
   width: 300px;
-  height: 50px;
+  height: 75px;
 }
 .plat-1__title__nom:after, .plat-2__title__nom:after, .plat-3__title__nom:after, .plat-4__title__nom:after {
   content: "";
@@ -277,38 +277,36 @@ body {
   width: 0;
   height: 3px;
   display: block;
-  margin-top: 2px;
+  margin-top: 3px;
   right: 0;
-  background: #311c17;
   transition: width 0.2s ease;
   -webkit-transition: width 0.5s ease;
 }
 .plat-1__title__nom:hover:after, .plat-2__title__nom:hover:after, .plat-3__title__nom:hover:after, .plat-4__title__nom:hover:after {
   width: 100%;
   left: 0;
-  background: #311c17;
 }
 .plat-1__text, .plat-2__text, .plat-3__text, .plat-4__text {
   margin-right: 10%;
   margin-left: 10%;
 }
-.plat-1__text-titre, .plat-2__text-titre, .plat-3__text-titre, .plat-4__text-titre {
+.plat-1__text-part1_titre-1, .plat-1__text-part1_titre-2, .plat-1__text-part1_titre-3, .plat-1__text-part1_titre-4, .plat-1__text-part2_titre-1, .plat-1__text-part2_titre-2, .plat-1__text-part2_titre-3, .plat-1__text-part2_titre-4, .plat-1__text-part3_titre-1, .plat-1__text-part3_titre-2, .plat-1__text-part3_titre-3, .plat-1__text-part3_titre-4, .plat-2__text-part1_titre-1, .plat-2__text-part1_titre-2, .plat-2__text-part1_titre-3, .plat-2__text-part1_titre-4, .plat-2__text-part2_titre-1, .plat-2__text-part2_titre-2, .plat-2__text-part2_titre-3, .plat-2__text-part2_titre-4, .plat-2__text-part3_titre-1, .plat-2__text-part3_titre-2, .plat-2__text-part3_titre-3, .plat-2__text-part3_titre-4, .plat-3__text-part1_titre-1, .plat-3__text-part1_titre-2, .plat-3__text-part1_titre-3, .plat-3__text-part1_titre-4, .plat-3__text-part2_titre-1, .plat-3__text-part2_titre-2, .plat-3__text-part2_titre-3, .plat-3__text-part2_titre-4, .plat-3__text-part3_titre-1, .plat-3__text-part3_titre-2, .plat-3__text-part3_titre-3, .plat-3__text-part3_titre-4, .plat-4__text-part1_titre-1, .plat-4__text-part1_titre-2, .plat-4__text-part1_titre-3, .plat-4__text-part1_titre-4, .plat-4__text-part2_titre-1, .plat-4__text-part2_titre-2, .plat-4__text-part2_titre-3, .plat-4__text-part2_titre-4, .plat-4__text-part3_titre-1, .plat-4__text-part3_titre-2, .plat-4__text-part3_titre-3, .plat-4__text-part3_titre-4 {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 2em;
 }
-.plat-1__text-paragraphe-1, .plat-1__text-paragraphe-2, .plat-1__text-paragraphe-3, .plat-1__text-paragraphe-4, .plat-2__text-paragraphe-1, .plat-2__text-paragraphe-2, .plat-2__text-paragraphe-3, .plat-2__text-paragraphe-4, .plat-3__text-paragraphe-1, .plat-3__text-paragraphe-2, .plat-3__text-paragraphe-3, .plat-3__text-paragraphe-4, .plat-4__text-paragraphe-1, .plat-4__text-paragraphe-2, .plat-4__text-paragraphe-3, .plat-4__text-paragraphe-4 {
+.plat-1__text-part1_paragraphe-1, .plat-1__text-part1_paragraphe-2, .plat-1__text-part1_paragraphe-3, .plat-1__text-part1_paragraphe-4, .plat-1__text-part2_paragraphe-1, .plat-1__text-part2_paragraphe-2, .plat-1__text-part2_paragraphe-3, .plat-1__text-part2_paragraphe-4, .plat-1__text-part3_paragraphe-1, .plat-1__text-part3_paragraphe-2, .plat-1__text-part3_paragraphe-3, .plat-1__text-part3_paragraphe-4, .plat-2__text-part1_paragraphe-1, .plat-2__text-part1_paragraphe-2, .plat-2__text-part1_paragraphe-3, .plat-2__text-part1_paragraphe-4, .plat-2__text-part2_paragraphe-1, .plat-2__text-part2_paragraphe-2, .plat-2__text-part2_paragraphe-3, .plat-2__text-part2_paragraphe-4, .plat-2__text-part3_paragraphe-1, .plat-2__text-part3_paragraphe-2, .plat-2__text-part3_paragraphe-3, .plat-2__text-part3_paragraphe-4, .plat-3__text-part1_paragraphe-1, .plat-3__text-part1_paragraphe-2, .plat-3__text-part1_paragraphe-3, .plat-3__text-part1_paragraphe-4, .plat-3__text-part2_paragraphe-1, .plat-3__text-part2_paragraphe-2, .plat-3__text-part2_paragraphe-3, .plat-3__text-part2_paragraphe-4, .plat-3__text-part3_paragraphe-1, .plat-3__text-part3_paragraphe-2, .plat-3__text-part3_paragraphe-3, .plat-3__text-part3_paragraphe-4, .plat-4__text-part1_paragraphe-1, .plat-4__text-part1_paragraphe-2, .plat-4__text-part1_paragraphe-3, .plat-4__text-part1_paragraphe-4, .plat-4__text-part2_paragraphe-1, .plat-4__text-part2_paragraphe-2, .plat-4__text-part2_paragraphe-3, .plat-4__text-part2_paragraphe-4, .plat-4__text-part3_paragraphe-1, .plat-4__text-part3_paragraphe-2, .plat-4__text-part3_paragraphe-3, .plat-4__text-part3_paragraphe-4 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
   font-size: 1.5em;
   position: relative;
 }
-.plat-1__text-paragraphe-1__produit, .plat-1__text-paragraphe-2__produit, .plat-1__text-paragraphe-3__produit, .plat-1__text-paragraphe-4__produit, .plat-2__text-paragraphe-1__produit, .plat-2__text-paragraphe-2__produit, .plat-2__text-paragraphe-3__produit, .plat-2__text-paragraphe-4__produit, .plat-3__text-paragraphe-1__produit, .plat-3__text-paragraphe-2__produit, .plat-3__text-paragraphe-3__produit, .plat-3__text-paragraphe-4__produit, .plat-4__text-paragraphe-1__produit, .plat-4__text-paragraphe-2__produit, .plat-4__text-paragraphe-3__produit, .plat-4__text-paragraphe-4__produit {
+.plat-1__text-part1_paragraphe-1__produit, .plat-1__text-part1_paragraphe-2__produit, .plat-1__text-part1_paragraphe-3__produit, .plat-1__text-part1_paragraphe-4__produit, .plat-1__text-part2_paragraphe-1__produit, .plat-1__text-part2_paragraphe-2__produit, .plat-1__text-part2_paragraphe-3__produit, .plat-1__text-part2_paragraphe-4__produit, .plat-1__text-part3_paragraphe-1__produit, .plat-1__text-part3_paragraphe-2__produit, .plat-1__text-part3_paragraphe-3__produit, .plat-1__text-part3_paragraphe-4__produit, .plat-2__text-part1_paragraphe-1__produit, .plat-2__text-part1_paragraphe-2__produit, .plat-2__text-part1_paragraphe-3__produit, .plat-2__text-part1_paragraphe-4__produit, .plat-2__text-part2_paragraphe-1__produit, .plat-2__text-part2_paragraphe-2__produit, .plat-2__text-part2_paragraphe-3__produit, .plat-2__text-part2_paragraphe-4__produit, .plat-2__text-part3_paragraphe-1__produit, .plat-2__text-part3_paragraphe-2__produit, .plat-2__text-part3_paragraphe-3__produit, .plat-2__text-part3_paragraphe-4__produit, .plat-3__text-part1_paragraphe-1__produit, .plat-3__text-part1_paragraphe-2__produit, .plat-3__text-part1_paragraphe-3__produit, .plat-3__text-part1_paragraphe-4__produit, .plat-3__text-part2_paragraphe-1__produit, .plat-3__text-part2_paragraphe-2__produit, .plat-3__text-part2_paragraphe-3__produit, .plat-3__text-part2_paragraphe-4__produit, .plat-3__text-part3_paragraphe-1__produit, .plat-3__text-part3_paragraphe-2__produit, .plat-3__text-part3_paragraphe-3__produit, .plat-3__text-part3_paragraphe-4__produit, .plat-4__text-part1_paragraphe-1__produit, .plat-4__text-part1_paragraphe-2__produit, .plat-4__text-part1_paragraphe-3__produit, .plat-4__text-part1_paragraphe-4__produit, .plat-4__text-part2_paragraphe-1__produit, .plat-4__text-part2_paragraphe-2__produit, .plat-4__text-part2_paragraphe-3__produit, .plat-4__text-part2_paragraphe-4__produit, .plat-4__text-part3_paragraphe-1__produit, .plat-4__text-part3_paragraphe-2__produit, .plat-4__text-part3_paragraphe-3__produit, .plat-4__text-part3_paragraphe-4__produit {
   margin-right: 25px;
   vertical-align: middle;
 }
-.plat-1__text-paragraphe-1__prix, .plat-1__text-paragraphe-2__prix, .plat-1__text-paragraphe-3__prix, .plat-1__text-paragraphe-4__prix, .plat-2__text-paragraphe-1__prix, .plat-2__text-paragraphe-2__prix, .plat-2__text-paragraphe-3__prix, .plat-2__text-paragraphe-4__prix, .plat-3__text-paragraphe-1__prix, .plat-3__text-paragraphe-2__prix, .plat-3__text-paragraphe-3__prix, .plat-3__text-paragraphe-4__prix, .plat-4__text-paragraphe-1__prix, .plat-4__text-paragraphe-2__prix, .plat-4__text-paragraphe-3__prix, .plat-4__text-paragraphe-4__prix {
+.plat-1__text-part1_paragraphe-1__prix, .plat-1__text-part1_paragraphe-2__prix, .plat-1__text-part1_paragraphe-3__prix, .plat-1__text-part1_paragraphe-4__prix, .plat-1__text-part2_paragraphe-1__prix, .plat-1__text-part2_paragraphe-2__prix, .plat-1__text-part2_paragraphe-3__prix, .plat-1__text-part2_paragraphe-4__prix, .plat-1__text-part3_paragraphe-1__prix, .plat-1__text-part3_paragraphe-2__prix, .plat-1__text-part3_paragraphe-3__prix, .plat-1__text-part3_paragraphe-4__prix, .plat-2__text-part1_paragraphe-1__prix, .plat-2__text-part1_paragraphe-2__prix, .plat-2__text-part1_paragraphe-3__prix, .plat-2__text-part1_paragraphe-4__prix, .plat-2__text-part2_paragraphe-1__prix, .plat-2__text-part2_paragraphe-2__prix, .plat-2__text-part2_paragraphe-3__prix, .plat-2__text-part2_paragraphe-4__prix, .plat-2__text-part3_paragraphe-1__prix, .plat-2__text-part3_paragraphe-2__prix, .plat-2__text-part3_paragraphe-3__prix, .plat-2__text-part3_paragraphe-4__prix, .plat-3__text-part1_paragraphe-1__prix, .plat-3__text-part1_paragraphe-2__prix, .plat-3__text-part1_paragraphe-3__prix, .plat-3__text-part1_paragraphe-4__prix, .plat-3__text-part2_paragraphe-1__prix, .plat-3__text-part2_paragraphe-2__prix, .plat-3__text-part2_paragraphe-3__prix, .plat-3__text-part2_paragraphe-4__prix, .plat-3__text-part3_paragraphe-1__prix, .plat-3__text-part3_paragraphe-2__prix, .plat-3__text-part3_paragraphe-3__prix, .plat-3__text-part3_paragraphe-4__prix, .plat-4__text-part1_paragraphe-1__prix, .plat-4__text-part1_paragraphe-2__prix, .plat-4__text-part1_paragraphe-3__prix, .plat-4__text-part1_paragraphe-4__prix, .plat-4__text-part2_paragraphe-1__prix, .plat-4__text-part2_paragraphe-2__prix, .plat-4__text-part2_paragraphe-3__prix, .plat-4__text-part2_paragraphe-4__prix, .plat-4__text-part3_paragraphe-1__prix, .plat-4__text-part3_paragraphe-2__prix, .plat-4__text-part3_paragraphe-3__prix, .plat-4__text-part3_paragraphe-4__prix {
   font-weight: bold;
   vertical-align: middle;
 }
@@ -320,35 +318,76 @@ body {
 .plat-1__title__nom {
   font-size: 1.4em;
 }
+.plat-1__title__nom:after {
+  background: #311c17;
+}
+.plat-1__title__nom:after:hover {
+  background: #311c17;
+}
 .plat-1__title__logo {
   background: -webkit-gradient(linear, left top, right bottom, from(#ff0800), to(#ffe395));
-  font-family: "Noto Sans TC", sans-serif;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .plat-2 {
   background-color: #f5fcff;
-  color: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
+  color: #0f0e0e;
   font-family: "Pacifico", cursive;
 }
 .plat-2__title__nom {
   font-size: 1.05em;
+  background: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.plat-2__title__nom:after {
+  background: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
+}
+.plat-2__title__nom:after:hover {
+  background: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
 }
 .plat-3 {
   background-color: #fff5f6;
-  color: -webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
   font-family: "Lobster", cursive;
 }
 .plat-3__title__nom {
   font-size: 1.15em;
+  background: -webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.plat-3__title__nom:after {
+  background: -webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
+}
+.plat-3__title__nom:after:hover {
+  background: -webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
+}
+.plat-3__text-part1 {
+  color: #e0960b;
+}
+.plat-3__text-part2 {
+  color: #6c34b6;
+}
+.plat-3__text-part3 {
+  color: #34225f;
 }
 .plat-4 {
   background-color: #fbfffb;
-  color: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
   font-family: "Aladin", cursive;
+  color: #0f0e0e;
 }
 .plat-4__title__nom {
   font-size: 1.55em;
+  background: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.plat-4__title__nom:after {
+  background: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
+}
+.plat-4__title__nom:after:hover {
+  background: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
 }
 
 /*# sourceMappingURL=style.css.map */
