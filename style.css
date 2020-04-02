@@ -57,6 +57,14 @@ body {
   font-style: italic;
   border: solid 5px rgba(116, 158, 152, 0.05);
   border-radius: 3px;
+  overflow: hidden;
+}
+.menu-1--zoom, .menu-2--zoom, .menu-3--zoom, .menu-4--zoom {
+  transition: transform 0.2s;
+}
+.menu-1--zoom:hover, .menu-2--zoom:hover, .menu-3--zoom:hover, .menu-4--zoom:hover {
+  transform: scale(1.05);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .menu-1__logo, .menu-2__logo, .menu-3__logo, .menu-4__logo {
   padding-top: 50%;

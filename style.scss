@@ -59,6 +59,13 @@ body{
     font-style: italic;
     border: solid 5px rgba($color: #749e98, $alpha: 0.05);
     border-radius: 3px;
+    overflow: hidden;
+    &--zoom{
+      transition: transform .2s;
+      &:hover {
+        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+      }
+    }
     &__logo{
       padding-top: 50%;
       font-size: 3em;
