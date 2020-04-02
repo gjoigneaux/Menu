@@ -1,7 +1,5 @@
 @charset "UTF-8";
-/*//////////////////
-        INDEX
-/////////////////*/
+/* INDEX */
 body {
   max-width: 1440px;
   margin: auto;
@@ -70,7 +68,6 @@ body {
   padding-top: 50%;
   font-size: 3em;
   font-style: normal;
-  font-family: "Noto Sans TC", sans-serif;
 }
 .menu-1__nom, .menu-2__nom, .menu-3__nom, .menu-4__nom {
   font-size: 2em;
@@ -86,6 +83,7 @@ body {
 }
 .menu-1__logo {
   padding-top: 33%;
+  font-family: "Noto Sans TC", sans-serif;
   background: -webkit-gradient(linear, left top, right bottom, from(#ff0800), to(#ffe395));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -252,28 +250,77 @@ body {
   }
 }
 
-.contenu__name {
+/* PAGE */
+.plat {
+  text-align: center;
+  width: 100%;
+}
+.plat-1__title__logo, .plat-2__title__logo, .plat-3__title__logo, .plat-4__title__logo {
+  font-size: 2em;
+  font-style: normal;
+}
+.plat-1__title__nom, .plat-2__title__nom, .plat-3__title__nom, .plat-4__title__nom {
+  font-size: 1.4em;
   position: relative;
-  width: 120px;
+  width: 300px;
   height: 50px;
   margin: auto;
 }
-.contenu__name:after {
+.plat-1__title__nom:after, .plat-2__title__nom:after, .plat-3__title__nom:after, .plat-4__title__nom:after {
   content: "";
   position: absolute;
   width: 0;
   height: 3px;
   display: block;
-  margin-top: 5px;
+  margin-top: 2px;
   right: 0;
-  background: black;
+  background: #311c17;
   transition: width 0.2s ease;
-  -webkit-transition: width 0.2s ease;
+  -webkit-transition: width 0.5s ease;
 }
-.contenu__name:hover:after {
+.plat-1__title__nom:hover:after, .plat-2__title__nom:hover:after, .plat-3__title__nom:hover:after, .plat-4__title__nom:hover:after {
   width: 100%;
   left: 0;
-  background: black;
+  background: #311c17;
+}
+.plat-1__text, .plat-2__text, .plat-3__text, .plat-4__text {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.plat-1__text-titre, .plat-2__text-titre, .plat-3__text-titre, .plat-4__text-titre {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+.plat-1__text-paragraphe-1, .plat-1__text-paragraphe-2, .plat-1__text-paragraphe-3, .plat-1__text-paragraphe-4, .plat-2__text-paragraphe-1, .plat-2__text-paragraphe-2, .plat-2__text-paragraphe-3, .plat-2__text-paragraphe-4, .plat-3__text-paragraphe-1, .plat-3__text-paragraphe-2, .plat-3__text-paragraphe-3, .plat-3__text-paragraphe-4, .plat-4__text-paragraphe-1, .plat-4__text-paragraphe-2, .plat-4__text-paragraphe-3, .plat-4__text-paragraphe-4 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  font-size: 1.5em;
+  position: relative;
+}
+.plat-1__text-paragraphe-1__produit, .plat-1__text-paragraphe-2__produit, .plat-1__text-paragraphe-3__produit, .plat-1__text-paragraphe-4__produit, .plat-2__text-paragraphe-1__produit, .plat-2__text-paragraphe-2__produit, .plat-2__text-paragraphe-3__produit, .plat-2__text-paragraphe-4__produit, .plat-3__text-paragraphe-1__produit, .plat-3__text-paragraphe-2__produit, .plat-3__text-paragraphe-3__produit, .plat-3__text-paragraphe-4__produit, .plat-4__text-paragraphe-1__produit, .plat-4__text-paragraphe-2__produit, .plat-4__text-paragraphe-3__produit, .plat-4__text-paragraphe-4__produit {
+  margin-right: 25px;
+  vertical-align: middle;
+}
+.plat-1__text-paragraphe-1__prix, .plat-1__text-paragraphe-2__prix, .plat-1__text-paragraphe-3__prix, .plat-1__text-paragraphe-4__prix, .plat-2__text-paragraphe-1__prix, .plat-2__text-paragraphe-2__prix, .plat-2__text-paragraphe-3__prix, .plat-2__text-paragraphe-4__prix, .plat-3__text-paragraphe-1__prix, .plat-3__text-paragraphe-2__prix, .plat-3__text-paragraphe-3__prix, .plat-3__text-paragraphe-4__prix, .plat-4__text-paragraphe-1__prix, .plat-4__text-paragraphe-2__prix, .plat-4__text-paragraphe-3__prix, .plat-4__text-paragraphe-4__prix {
+  font-weight: bold;
+  vertical-align: middle;
+}
+.plat-1 {
+  background-color: #fae3e6;
+  padding-bottom: 20px;
+  color: #311c17;
+  font-family: "Dancing Script", cursive;
+}
+.plat-1__title {
+  font-size: 2em;
+}
+.plat-1__title__logo {
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff0800), to(#ffe395));
+  font-family: "Noto Sans TC", sans-serif;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

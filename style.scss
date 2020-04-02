@@ -1,9 +1,29 @@
 @import 'mixin.scss';
 
+//design menu1
+$family_menu1_text:'Dancing Script', cursive;
+$color_menu1_text:#311c17;
+$family_menu1_logo:'Noto Sans TC', sans-serif;
+$color_menu1_logo:-webkit-gradient(linear, left top, right bottom, from(#ff0800), to(#ffe395));
+$backcolor_menu1:#fae3e6;
 
- /*//////////////////
-        INDEX
-/////////////////*/
+//design menu2
+$family_menu2_text:'Pacifico', cursive;
+$color_menu2_text:-webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
+$backcolor_menu2:#f5fcff;
+
+//design menu3
+$family_menu3_text:'Lobster', cursive;
+$color_menu3_text:-webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
+$backcolor_menu3:#fff5f6;
+
+//design menu4
+$family_menu4_text:'Aladin', cursive;
+$color_menu4_text:-webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
+$backcolor_menu4:#fbfffb;
+
+
+ /* INDEX */
 
 body{
   max-width: 1440px;
@@ -70,7 +90,6 @@ body{
       padding-top: 50%;
       font-size: 3em;
       font-style: normal;
-      font-family: 'Noto Sans TC', sans-serif;
     }
     &__nom{
       font-size: 2em;
@@ -82,24 +101,25 @@ body{
     }
   }
   &-1{
-    background-color: #fae3e6;
-    color: #311c17;
+    background-color:$backcolor_menu1;
+    color:$color_menu1_text;
     &__logo{
       padding-top: 33%;
-      background: -webkit-gradient(linear, left top, right bottom, from(#ff0800), to(#ffe395));
+      font-family: $family_menu1_logo ;
+      background: $color_menu1_logo;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     &__nom{
-      font-family: 'Dancing Script', cursive;
+      font-family:$family_menu1_text ;
       font-weight: bold;
     }
   }
   &-2{
-    background-color: #f5fcff;
+    background-color:$backcolor_menu2 ;
     &__nom{
-      font-family: 'Pacifico', cursive;
-      background: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
+      font-family: $family_menu2_text;
+      background: $color_menu2_text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -108,10 +128,10 @@ body{
     }
   }  
   &-3{
-    background-color:  #fff5f6;
+    background-color: $backcolor_menu3 ;
     &__nom{
-      font-family: 'Lobster', cursive;
-      background: -webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
+      font-family:$family_menu3_text ;
+      background: $color_menu3_text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -120,10 +140,10 @@ body{
     }
   }
   &-4{
-    background-color: #fbfffb;
+    background-color: $backcolor_menu4;
     &__nom{
-      font-family: 'Aladin', cursive;
-      background: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
+      font-family: $family_menu4_text;
+      background:$color_menu4_text ;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -211,26 +231,80 @@ body{
   }
 }
 
+/* PAGE */
 
-
-.contenu__name{
-  position: relative;
-  width: 120px; height: 50px;
-  margin: auto;
-  &:after{
-    content: '';
-    position: absolute;
-    width: 0; height: 3px;
-    display: block;
-    margin-top: 5px;
-    right: 0;
-    background: black;
-    transition: width .2s ease;
-    -webkit-transition: width .2s ease;
-  }
-  &:hover:after{
-    width: 100%;
-    left: 0;
-    background: black;
+.plat{
+  text-align: center;
+  width: 100%;
+  &-1, &-2, &-3, &-4{ 
+    &__title{ 
+      &__logo{
+        font-size: 2em;
+        font-style: normal;     
+        }
+        &__nom{
+          font-size: 1.4em;
+          position: relative;
+          width: 300px; height: 50px;  
+          margin: auto;     
+          &:after{
+            content: '';
+            position: absolute;
+            width: 0; height: 3px;
+            display: block;
+            margin-top: 2px;
+            right: 0;
+            background:$color_menu1_text;
+            transition: width .2s ease;
+            -webkit-transition: width .5s ease;
+          }
+          &:hover:after{
+            width: 100%;
+            left: 0;
+            background: $color_menu1_text;
+          }
+        }
+      }
+      &__text{
+        margin-right: 10%;
+        margin-left: 10%;
+        &-titre{
+          margin-top: 30px;
+          margin-bottom: 30px;
+          font-size: 2em;
+        }
+        &-paragraphe{
+          &-1,&-2,&-3,&-4{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 25px;
+            font-size: 1.5em;
+            position: relative; 
+            &__produit{
+              margin-right: 25px;
+              vertical-align: middle;
+            }
+            &__prix{
+             font-weight:bold;
+             vertical-align: middle;
+            } 
+          }
+        }
+      }  
+    }
+  &-1{   
+    background-color: $backcolor_menu1;
+    padding-bottom: 20px;
+    color: $color_menu1_text;
+    font-family: $family_menu1_text;
+    &__title{  
+      font-size: 2em; 
+      &__logo{
+        background: $color_menu1_logo;
+        font-family: $family_menu1_logo;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
   }
 }
