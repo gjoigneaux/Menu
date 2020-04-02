@@ -25,6 +25,9 @@ $family_menu4_text:'Aladin', cursive;
 $color_menu4_text:-webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
 $backcolor_menu4:#fbfffb;
 
+//Titre et Mention
+$colortitle: #ffc400;
+
  /* INDEX */
 
 body{
@@ -35,10 +38,13 @@ body{
 .container{
   display: flex;
   flex-direction: column;
-  color: #ffc400;
-  width: 80%;
+  color: $colortitle;
+  width: 100%;
   min-width: 300px;
   margin: auto;
+  @include breakpoint(small){
+    width: 80%;
+  }
 }
 
 .header{
@@ -50,10 +56,12 @@ body{
   min-width: 300px;
   text-align: center;
   display: flex; 
-  span{
+  a{
     font-weight:bold;
     margin: auto;
     font-size: 3em;
+    text-decoration:none;
+    color: $colortitle;
   }
 }
 
@@ -192,7 +200,7 @@ body{
   display: flex;
   a{
     text-decoration: none;
-    color: #ffc400;
+    color: $colortitle;
   }
   @include breakpoint(small){
     &__mention{
