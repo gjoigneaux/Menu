@@ -244,4 +244,28 @@ body {
   }
 }
 
+.contenu__name {
+  position: relative;
+  width: 120px;
+  height: 50px;
+  margin: auto;
+}
+.contenu__name:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: black;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.2s ease;
+}
+.contenu__name:hover:after {
+  width: 100%;
+  left: 0;
+  background: black;
+}
+
 /*# sourceMappingURL=style.css.map */
