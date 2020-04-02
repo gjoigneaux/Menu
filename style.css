@@ -255,16 +255,21 @@ body {
   text-align: center;
   width: 100%;
 }
+.plat-1, .plat-2, .plat-3, .plat-4 {
+  padding-bottom: 20px;
+}
+.plat-1__title, .plat-2__title, .plat-3__title, .plat-4__title {
+  font-size: 2em;
+}
 .plat-1__title__logo, .plat-2__title__logo, .plat-3__title__logo, .plat-4__title__logo {
   font-size: 2em;
   font-style: normal;
 }
 .plat-1__title__nom, .plat-2__title__nom, .plat-3__title__nom, .plat-4__title__nom {
-  font-size: 1.4em;
   position: relative;
+  margin: auto;
   width: 300px;
   height: 50px;
-  margin: auto;
 }
 .plat-1__title__nom:after, .plat-2__title__nom:after, .plat-3__title__nom:after, .plat-4__title__nom:after {
   content: "";
@@ -309,18 +314,41 @@ body {
 }
 .plat-1 {
   background-color: #fae3e6;
-  padding-bottom: 20px;
   color: #311c17;
   font-family: "Dancing Script", cursive;
 }
-.plat-1__title {
-  font-size: 2em;
+.plat-1__title__nom {
+  font-size: 1.4em;
 }
 .plat-1__title__logo {
   background: -webkit-gradient(linear, left top, right bottom, from(#ff0800), to(#ffe395));
   font-family: "Noto Sans TC", sans-serif;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.plat-2 {
+  background-color: #f5fcff;
+  color: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
+  font-family: "Pacifico", cursive;
+}
+.plat-2__title__nom {
+  font-size: 1.05em;
+}
+.plat-3 {
+  background-color: #fff5f6;
+  color: -webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
+  font-family: "Lobster", cursive;
+}
+.plat-3__title__nom {
+  font-size: 1.15em;
+}
+.plat-4 {
+  background-color: #fbfffb;
+  color: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
+  font-family: "Aladin", cursive;
+}
+.plat-4__title__nom {
+  font-size: 1.55em;
 }
 
 /*# sourceMappingURL=style.css.map */

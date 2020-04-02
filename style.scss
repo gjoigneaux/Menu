@@ -237,68 +237,70 @@ body{
   text-align: center;
   width: 100%;
   &-1, &-2, &-3, &-4{ 
+    padding-bottom: 20px;
     &__title{ 
+      font-size: 2em; 
       &__logo{
         font-size: 2em;
         font-style: normal;     
         }
-        &__nom{
-          font-size: 1.4em;
-          position: relative;
-          width: 300px; height: 50px;  
-          margin: auto;     
-          &:after{
-            content: '';
-            position: absolute;
-            width: 0; height: 3px;
-            display: block;
-            margin-top: 2px;
-            right: 0;
-            background:$color_menu1_text;
-            transition: width .2s ease;
-            -webkit-transition: width .5s ease;
+      &__nom{     
+        position: relative;  
+        margin: auto;  
+        width: 300px; height: 50px;   
+        &:after{
+          content: '';
+          position: absolute;
+          width: 0; height: 3px;
+          display: block;
+          margin-top: 2px;
+          right: 0;
+          background:$color_menu1_text;
+          transition: width .2s ease;
+          -webkit-transition: width .5s ease;
           }
-          &:hover:after{
-            width: 100%;
-            left: 0;
-            background: $color_menu1_text;
-          }
+        &:hover:after{
+          width: 100%;
+          left: 0;
+          background: $color_menu1_text;
         }
       }
-      &__text{
-        margin-right: 10%;
-        margin-left: 10%;
-        &-titre{
-          margin-top: 30px;
-          margin-bottom: 30px;
-          font-size: 2em;
-        }
-        &-paragraphe{
-          &-1,&-2,&-3,&-4{
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 25px;
-            font-size: 1.5em;
-            position: relative; 
-            &__produit{
-              margin-right: 25px;
-              vertical-align: middle;
-            }
-            &__prix{
-             font-weight:bold;
-             vertical-align: middle;
-            } 
-          }
-        }
-      }  
     }
+    &__text{
+      margin-right: 10%;
+      margin-left: 10%;
+      &-titre{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 2em;
+      }
+      &-paragraphe{
+        &-1,&-2,&-3,&-4{
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 25px;
+          font-size: 1.5em;
+          position: relative; 
+          &__produit{
+            margin-right: 25px;
+            vertical-align: middle;
+          }
+          &__prix{
+            font-weight:bold;
+            vertical-align: middle;
+          } 
+        }
+      }
+    }  
+  }
   &-1{   
     background-color: $backcolor_menu1;
-    padding-bottom: 20px;
     color: $color_menu1_text;
     font-family: $family_menu1_text;
     &__title{  
-      font-size: 2em; 
+      &__nom{
+        font-size: 1.4em;
+      }     
       &__logo{
         background: $color_menu1_logo;
         font-family: $family_menu1_logo;
@@ -306,5 +308,35 @@ body{
         -webkit-text-fill-color: transparent;
       }
     }
+  }
+  &-2{   
+    background-color: $backcolor_menu2;
+    color: $color_menu2_text;
+    font-family: $family_menu2_text;
+    &__title{  
+      &__nom{
+        font-size: 1.05em;
+      }  
+    }  
+  }
+  &-3{   
+    background-color: $backcolor_menu3;
+    color: $color_menu3_text;
+    font-family: $family_menu3_text;
+    &__title{  
+      &__nom{
+        font-size: 1.15em;
+      }  
+    }  
+  }
+  &-4{   
+    background-color: $backcolor_menu4;
+    color: $color_menu4_text;
+    font-family: $family_menu4_text;
+    &__title{  
+      &__nom{
+        font-size: 1.55em;
+      }  
+    }  
   }
 }
