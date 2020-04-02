@@ -13,8 +13,7 @@ body{
 .container{
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
-  color: gold;
+  color: #ffc400;
   width: 80%;
   min-width: 300px;
   margin: auto;
@@ -24,7 +23,7 @@ body{
   top: 0;
   left: 0;
   right: 0;
-  background-color: darkgreen;
+  background-color: #2c9475;
   height: 100px;
   min-width: 300px;
   text-align: center;
@@ -41,7 +40,6 @@ body{
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 .menu{
@@ -49,30 +47,94 @@ body{
     display: flex;
     justify-content: space-around;
   }
+  a{
+    text-decoration: none;
+  }
   &-1, &-2, &-3, &-4{
     width: 300px;
-    height: 500px;
-    border: solid black 1px;
+    height: 425px;
     margin: auto;
     margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+    border: solid 5px rgba($color: #749e98, $alpha: 0.05);
+    border-radius: 3px;
     &__logo{
-      color: -webkit-linear-gradient(red, yellow);
+      padding-top: 50%;
+      font-size: 3em;
+      font-style: normal;
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+    &__nom{
+      font-size: 2em;
+    }
+    &__text{
+      padding-top: 10%;
+      font-size: 2.5em;
+      font-family: 'Do Hyeon', sans-serif;
     }
   }
   &-1{
-    background-color: rosybrown;
+    background-color: #fae3e6;
+    color: #311c17;
+    &__logo{
+      padding-top: 33%;
+      background: -webkit-gradient(linear, left top, right bottom, from(#ff0800), to(#ffe395));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    &__nom{
+      font-family: 'Dancing Script', cursive;
+      font-weight: bold;
+    }
+  }
+  &-2{
+    background-color: #f5fcff;
+    &__nom{
+      font-family: 'Pacifico', cursive;
+      background: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    &__text{
+      color: #3498b6;
+    }
+  }  
+  &-3{
+    background-color:  #fff5f6;
+    &__nom{
+      font-family: 'Lobster', cursive;
+      background: -webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    &__text{
+      color : #c27e00;
+    }
+  }
+  &-4{
+    background-color: #fbfffb;
+    &__nom{
+      font-family: 'Aladin', cursive;
+      background: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    &__text{
+      color : #18a813;
+    }
   }
 }
 
 .prochainement{
-  background-color: darkgreen;
+  background-color: #2c9475;
   font-size: 1.5em;
   padding: 10px 5px 10px 5px;
-  text-align: auto;
+  text-align: center;
   width: 250px;
   margin: auto;
   border-radius: 10px;
-  overflow: hidden;    
+  overflow: hidden;     
   &:after {
     overflow: hidden;
     display: inline-block;
@@ -89,7 +151,7 @@ body{
 }
 
 .footer{
-  background-color: darkgreen;
+  background-color: #2c9475;
   height: 100px; 
   min-width: 300px;
   text-align: center;
@@ -99,6 +161,10 @@ body{
   right: 0;
   font-size: 1.75em;
   display: flex;
+  a{
+    text-decoration: none;
+    color: #ffc400;
+  }
   @include breakpoint(small){
     &__mention{
       float: left;
@@ -137,3 +203,6 @@ body{
     100%{transform: rotate(5deg)}
   }
 }
+
+
+

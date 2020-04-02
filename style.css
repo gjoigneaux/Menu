@@ -10,8 +10,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  background-color: whitesmoke;
-  color: gold;
+  color: #ffc400;
   width: 80%;
   min-width: 300px;
   margin: auto;
@@ -21,7 +20,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-color: darkgreen;
+  background-color: #2c9475;
   height: 100px;
   min-width: 300px;
   text-align: center;
@@ -38,7 +37,6 @@ body {
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
-  text-align: center;
 }
 
 @media (min-width: 767px) {
@@ -47,25 +45,89 @@ body {
     justify-content: space-around;
   }
 }
+.menu a {
+  text-decoration: none;
+}
 .menu-1, .menu-2, .menu-3, .menu-4 {
   width: 300px;
-  height: 500px;
-  border: solid black 1px;
+  height: 425px;
   margin: auto;
   margin-bottom: 30px;
+  text-align: center;
+  font-style: italic;
+  border: solid 5px rgba(116, 158, 152, 0.05);
+  border-radius: 3px;
 }
 .menu-1__logo, .menu-2__logo, .menu-3__logo, .menu-4__logo {
-  color: -webkit-linear-gradient(red, yellow);
+  padding-top: 50%;
+  font-size: 3em;
+  font-style: normal;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.menu-1__nom, .menu-2__nom, .menu-3__nom, .menu-4__nom {
+  font-size: 2em;
+}
+.menu-1__text, .menu-2__text, .menu-3__text, .menu-4__text {
+  padding-top: 10%;
+  font-size: 2.5em;
+  font-family: "Do Hyeon", sans-serif;
 }
 .menu-1 {
-  background-color: rosybrown;
+  background-color: #fae3e6;
+  color: #311c17;
+}
+.menu-1__logo {
+  padding-top: 33%;
+  background: -webkit-gradient(linear, left top, right bottom, from(#ff0800), to(#ffe395));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu-1__nom {
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+}
+.menu-2 {
+  background-color: #f5fcff;
+}
+.menu-2__nom {
+  font-family: "Pacifico", cursive;
+  background: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu-2__text {
+  color: #3498b6;
+}
+.menu-3 {
+  background-color: #fff5f6;
+}
+.menu-3__nom {
+  font-family: "Lobster", cursive;
+  background: -webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu-3__text {
+  color: #c27e00;
+}
+.menu-4 {
+  background-color: #fbfffb;
+}
+.menu-4__nom {
+  font-family: "Aladin", cursive;
+  background: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu-4__text {
+  color: #18a813;
 }
 
 .prochainement {
-  background-color: darkgreen;
+  background-color: #2c9475;
   font-size: 1.5em;
   padding: 10px 5px 10px 5px;
-  text-align: auto;
+  text-align: center;
   width: 250px;
   margin: auto;
   border-radius: 10px;
@@ -87,7 +149,7 @@ body {
 }
 
 .footer {
-  background-color: darkgreen;
+  background-color: #2c9475;
   height: 100px;
   min-width: 300px;
   text-align: center;
@@ -97,6 +159,10 @@ body {
   right: 0;
   font-size: 1.75em;
   display: flex;
+}
+.footer a {
+  text-decoration: none;
+  color: #ffc400;
 }
 @media (min-width: 767px) {
   .footer__mention {
