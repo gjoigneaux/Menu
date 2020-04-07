@@ -282,6 +282,19 @@ body{
           margin-top: 30px;
           margin-bottom: 30px;
           font-size: 2em;
+          img{
+            width: 0px;
+            height: 0px;
+          }
+          @include breakpoint(small){
+            display: flex;
+            justify-content: space-between;
+            img{
+              width: 20%;
+              height: 10px;
+              padding-top: 20px;
+            }
+          }
         }
         &_paragraphe{     
           &-1,&-2,&-3,&-4{
@@ -289,14 +302,14 @@ body{
             justify-content: space-between;
             margin-bottom: 25px;
             font-size: 1.5em;
-            position: relative; 
             &__produit{
               margin-right: 25px;
-              vertical-align: middle;
+              text-align: left;
             }
             &__prix{
               font-weight:bold;
-              vertical-align: middle;
+              margin-top: auto;
+              margin-bottom: auto;
             } 
           }
         }
