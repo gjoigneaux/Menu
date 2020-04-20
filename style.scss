@@ -213,31 +213,28 @@ body{
     }
   }
   &__contact, &__mention{
-    animation: thing 3s infinite;
     margin: auto;
+    &:hover{
+      animation: shake 1s;
+      animation-iteration-count: infinite;
+    }
   }
-  @keyframes thing {
-    0%{transform: rotate(0deg)}
-    5%{transform: rotate(-5deg)}
-    10%{transform: rotate(5deg)}
-    15%{transform: rotate(-5deg)}
-    20%{transform: rotate(5deg)}
-    25%{transform: rotate(-5deg)}
-    30%{transform: rotate(5deg)}
-    35%{transform: rotate(-5deg)}
-    40%{transform: rotate(5deg)}
-    45%{transform: rotate(-5deg)}
-    50%{transform: rotate(5deg)}
-    55%{transform: rotate(-5deg)}
-    60%{transform: rotate(5deg)}
-    65%{transform: rotate(-5deg)}
-    70%{transform: rotate(5deg)}
-    75%{transform: rotate(-5deg)}
-    80%{transform: rotate(5deg)}
-    85%{transform: rotate(-5deg)}
-    90%{transform: rotate(5deg)}
-    95%{transform: rotate(-5deg)}
-    100%{transform: rotate(5deg)}
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, -1px, 0px);
+    }
+    
+    20%, 80% {
+      transform: translate3d(1px, -2px, 0px);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-1px, -3px, 0px);
+    }
+  
+    40%, 60% {
+      transform: translate3d(1px, -4px, 0px);
+    }
   }
 }
 
@@ -258,20 +255,6 @@ body{
         position: relative;  
         margin: auto;  
         width: 300px; height: 75px;   
-        &:after{
-          content: '';
-          position: absolute;
-          width: 0; height: 3px;
-          display: block;
-          margin-top: 3px;
-          right: 0;
-          transition: width .2s ease;
-          -webkit-transition: width .5s ease;
-          }
-        &:hover:after{
-          width: 100%;
-          left: 0;         
-        }
       }
     }
     &__text{

@@ -188,72 +188,24 @@ body {
   }
 }
 .footer__contact, .footer__mention {
-  animation: thing 3s infinite;
   margin: auto;
 }
-@keyframes thing {
-  0% {
-    transform: rotate(0deg);
+.footer__contact:hover, .footer__mention:hover {
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, -1px, 0px);
   }
-  5% {
-    transform: rotate(-5deg);
+  20%, 80% {
+    transform: translate3d(1px, -2px, 0px);
   }
-  10% {
-    transform: rotate(5deg);
+  30%, 50%, 70% {
+    transform: translate3d(-1px, -3px, 0px);
   }
-  15% {
-    transform: rotate(-5deg);
-  }
-  20% {
-    transform: rotate(5deg);
-  }
-  25% {
-    transform: rotate(-5deg);
-  }
-  30% {
-    transform: rotate(5deg);
-  }
-  35% {
-    transform: rotate(-5deg);
-  }
-  40% {
-    transform: rotate(5deg);
-  }
-  45% {
-    transform: rotate(-5deg);
-  }
-  50% {
-    transform: rotate(5deg);
-  }
-  55% {
-    transform: rotate(-5deg);
-  }
-  60% {
-    transform: rotate(5deg);
-  }
-  65% {
-    transform: rotate(-5deg);
-  }
-  70% {
-    transform: rotate(5deg);
-  }
-  75% {
-    transform: rotate(-5deg);
-  }
-  80% {
-    transform: rotate(5deg);
-  }
-  85% {
-    transform: rotate(-5deg);
-  }
-  90% {
-    transform: rotate(5deg);
-  }
-  95% {
-    transform: rotate(-5deg);
-  }
-  100% {
-    transform: rotate(5deg);
+  40%, 60% {
+    transform: translate3d(1px, -4px, 0px);
   }
 }
 
@@ -277,21 +229,6 @@ body {
   margin: auto;
   width: 300px;
   height: 75px;
-}
-.plat-1__title__nom:after, .plat-2__title__nom:after, .plat-3__title__nom:after, .plat-4__title__nom:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 3px;
-  display: block;
-  margin-top: 3px;
-  right: 0;
-  transition: width 0.2s ease;
-  -webkit-transition: width 0.5s ease;
-}
-.plat-1__title__nom:hover:after, .plat-2__title__nom:hover:after, .plat-3__title__nom:hover:after, .plat-4__title__nom:hover:after {
-  width: 100%;
-  left: 0;
 }
 .plat-1__text, .plat-2__text, .plat-3__text, .plat-4__text {
   margin-right: 10%;
