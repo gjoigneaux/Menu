@@ -230,6 +230,21 @@ body {
   width: 300px;
   height: 75px;
 }
+.plat-1__title__nom:after, .plat-2__title__nom:after, .plat-3__title__nom:after, .plat-4__title__nom:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  display: block;
+  margin-top: 3px;
+  right: 0;
+  transition: width 0.2s ease;
+  -webkit-transition: width 0.5s ease;
+}
+.plat-1__title__nom:hover:after, .plat-2__title__nom:hover:after, .plat-3__title__nom:hover:after, .plat-4__title__nom:hover:after {
+  width: 100%;
+  left: 0;
+}
 .plat-1__text, .plat-2__text, .plat-3__text, .plat-4__text {
   margin-right: 10%;
   margin-left: 10%;
@@ -238,6 +253,7 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 2em;
+  position: relative;
 }
 .plat-1__text-part1_titre-1 img, .plat-1__text-part1_titre-2 img, .plat-1__text-part1_titre-3 img, .plat-1__text-part1_titre-4 img, .plat-1__text-part2_titre-1 img, .plat-1__text-part2_titre-2 img, .plat-1__text-part2_titre-3 img, .plat-1__text-part2_titre-4 img, .plat-1__text-part3_titre-1 img, .plat-1__text-part3_titre-2 img, .plat-1__text-part3_titre-3 img, .plat-1__text-part3_titre-4 img, .plat-2__text-part1_titre-1 img, .plat-2__text-part1_titre-2 img, .plat-2__text-part1_titre-3 img, .plat-2__text-part1_titre-4 img, .plat-2__text-part2_titre-1 img, .plat-2__text-part2_titre-2 img, .plat-2__text-part2_titre-3 img, .plat-2__text-part2_titre-4 img, .plat-2__text-part3_titre-1 img, .plat-2__text-part3_titre-2 img, .plat-2__text-part3_titre-3 img, .plat-2__text-part3_titre-4 img, .plat-3__text-part1_titre-1 img, .plat-3__text-part1_titre-2 img, .plat-3__text-part1_titre-3 img, .plat-3__text-part1_titre-4 img, .plat-3__text-part2_titre-1 img, .plat-3__text-part2_titre-2 img, .plat-3__text-part2_titre-3 img, .plat-3__text-part2_titre-4 img, .plat-3__text-part3_titre-1 img, .plat-3__text-part3_titre-2 img, .plat-3__text-part3_titre-3 img, .plat-3__text-part3_titre-4 img, .plat-4__text-part1_titre-1 img, .plat-4__text-part1_titre-2 img, .plat-4__text-part1_titre-3 img, .plat-4__text-part1_titre-4 img, .plat-4__text-part2_titre-1 img, .plat-4__text-part2_titre-2 img, .plat-4__text-part2_titre-3 img, .plat-4__text-part2_titre-4 img, .plat-4__text-part3_titre-1 img, .plat-4__text-part3_titre-2 img, .plat-4__text-part3_titre-3 img, .plat-4__text-part3_titre-4 img {
   width: 0px;
@@ -247,6 +263,7 @@ body {
   .plat-1__text-part1_titre-1, .plat-1__text-part1_titre-2, .plat-1__text-part1_titre-3, .plat-1__text-part1_titre-4, .plat-1__text-part2_titre-1, .plat-1__text-part2_titre-2, .plat-1__text-part2_titre-3, .plat-1__text-part2_titre-4, .plat-1__text-part3_titre-1, .plat-1__text-part3_titre-2, .plat-1__text-part3_titre-3, .plat-1__text-part3_titre-4, .plat-2__text-part1_titre-1, .plat-2__text-part1_titre-2, .plat-2__text-part1_titre-3, .plat-2__text-part1_titre-4, .plat-2__text-part2_titre-1, .plat-2__text-part2_titre-2, .plat-2__text-part2_titre-3, .plat-2__text-part2_titre-4, .plat-2__text-part3_titre-1, .plat-2__text-part3_titre-2, .plat-2__text-part3_titre-3, .plat-2__text-part3_titre-4, .plat-3__text-part1_titre-1, .plat-3__text-part1_titre-2, .plat-3__text-part1_titre-3, .plat-3__text-part1_titre-4, .plat-3__text-part2_titre-1, .plat-3__text-part2_titre-2, .plat-3__text-part2_titre-3, .plat-3__text-part2_titre-4, .plat-3__text-part3_titre-1, .plat-3__text-part3_titre-2, .plat-3__text-part3_titre-3, .plat-3__text-part3_titre-4, .plat-4__text-part1_titre-1, .plat-4__text-part1_titre-2, .plat-4__text-part1_titre-3, .plat-4__text-part1_titre-4, .plat-4__text-part2_titre-1, .plat-4__text-part2_titre-2, .plat-4__text-part2_titre-3, .plat-4__text-part2_titre-4, .plat-4__text-part3_titre-1, .plat-4__text-part3_titre-2, .plat-4__text-part3_titre-3, .plat-4__text-part3_titre-4 {
     display: flex;
     justify-content: space-between;
+    position: relative;
   }
   .plat-1__text-part1_titre-1 img, .plat-1__text-part1_titre-2 img, .plat-1__text-part1_titre-3 img, .plat-1__text-part1_titre-4 img, .plat-1__text-part2_titre-1 img, .plat-1__text-part2_titre-2 img, .plat-1__text-part2_titre-3 img, .plat-1__text-part2_titre-4 img, .plat-1__text-part3_titre-1 img, .plat-1__text-part3_titre-2 img, .plat-1__text-part3_titre-3 img, .plat-1__text-part3_titre-4 img, .plat-2__text-part1_titre-1 img, .plat-2__text-part1_titre-2 img, .plat-2__text-part1_titre-3 img, .plat-2__text-part1_titre-4 img, .plat-2__text-part2_titre-1 img, .plat-2__text-part2_titre-2 img, .plat-2__text-part2_titre-3 img, .plat-2__text-part2_titre-4 img, .plat-2__text-part3_titre-1 img, .plat-2__text-part3_titre-2 img, .plat-2__text-part3_titre-3 img, .plat-2__text-part3_titre-4 img, .plat-3__text-part1_titre-1 img, .plat-3__text-part1_titre-2 img, .plat-3__text-part1_titre-3 img, .plat-3__text-part1_titre-4 img, .plat-3__text-part2_titre-1 img, .plat-3__text-part2_titre-2 img, .plat-3__text-part2_titre-3 img, .plat-3__text-part2_titre-4 img, .plat-3__text-part3_titre-1 img, .plat-3__text-part3_titre-2 img, .plat-3__text-part3_titre-3 img, .plat-3__text-part3_titre-4 img, .plat-4__text-part1_titre-1 img, .plat-4__text-part1_titre-2 img, .plat-4__text-part1_titre-3 img, .plat-4__text-part1_titre-4 img, .plat-4__text-part2_titre-1 img, .plat-4__text-part2_titre-2 img, .plat-4__text-part2_titre-3 img, .plat-4__text-part2_titre-4 img, .plat-4__text-part3_titre-1 img, .plat-4__text-part3_titre-2 img, .plat-4__text-part3_titre-3 img, .plat-4__text-part3_titre-4 img {
     width: 20%;
