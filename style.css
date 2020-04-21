@@ -258,6 +258,24 @@ body {
   width: 0px;
   height: 0px;
 }
+.plat-1__text-part1_titre-1_underline, .plat-1__text-part1_titre-2_underline, .plat-1__text-part1_titre-3_underline, .plat-1__text-part1_titre-4_underline, .plat-1__text-part2_titre-1_underline, .plat-1__text-part2_titre-2_underline, .plat-1__text-part2_titre-3_underline, .plat-1__text-part2_titre-4_underline, .plat-1__text-part3_titre-1_underline, .plat-1__text-part3_titre-2_underline, .plat-1__text-part3_titre-3_underline, .plat-1__text-part3_titre-4_underline, .plat-2__text-part1_titre-1_underline, .plat-2__text-part1_titre-2_underline, .plat-2__text-part1_titre-3_underline, .plat-2__text-part1_titre-4_underline, .plat-2__text-part2_titre-1_underline, .plat-2__text-part2_titre-2_underline, .plat-2__text-part2_titre-3_underline, .plat-2__text-part2_titre-4_underline, .plat-2__text-part3_titre-1_underline, .plat-2__text-part3_titre-2_underline, .plat-2__text-part3_titre-3_underline, .plat-2__text-part3_titre-4_underline, .plat-3__text-part1_titre-1_underline, .plat-3__text-part1_titre-2_underline, .plat-3__text-part1_titre-3_underline, .plat-3__text-part1_titre-4_underline, .plat-3__text-part2_titre-1_underline, .plat-3__text-part2_titre-2_underline, .plat-3__text-part2_titre-3_underline, .plat-3__text-part2_titre-4_underline, .plat-3__text-part3_titre-1_underline, .plat-3__text-part3_titre-2_underline, .plat-3__text-part3_titre-3_underline, .plat-3__text-part3_titre-4_underline, .plat-4__text-part1_titre-1_underline, .plat-4__text-part1_titre-2_underline, .plat-4__text-part1_titre-3_underline, .plat-4__text-part1_titre-4_underline, .plat-4__text-part2_titre-1_underline, .plat-4__text-part2_titre-2_underline, .plat-4__text-part2_titre-3_underline, .plat-4__text-part2_titre-4_underline, .plat-4__text-part3_titre-1_underline, .plat-4__text-part3_titre-2_underline, .plat-4__text-part3_titre-3_underline, .plat-4__text-part3_titre-4_underline {
+  position: relative;
+}
+.plat-1__text-part1_titre-1_underline:after, .plat-1__text-part1_titre-2_underline:after, .plat-1__text-part1_titre-3_underline:after, .plat-1__text-part1_titre-4_underline:after, .plat-1__text-part2_titre-1_underline:after, .plat-1__text-part2_titre-2_underline:after, .plat-1__text-part2_titre-3_underline:after, .plat-1__text-part2_titre-4_underline:after, .plat-1__text-part3_titre-1_underline:after, .plat-1__text-part3_titre-2_underline:after, .plat-1__text-part3_titre-3_underline:after, .plat-1__text-part3_titre-4_underline:after, .plat-2__text-part1_titre-1_underline:after, .plat-2__text-part1_titre-2_underline:after, .plat-2__text-part1_titre-3_underline:after, .plat-2__text-part1_titre-4_underline:after, .plat-2__text-part2_titre-1_underline:after, .plat-2__text-part2_titre-2_underline:after, .plat-2__text-part2_titre-3_underline:after, .plat-2__text-part2_titre-4_underline:after, .plat-2__text-part3_titre-1_underline:after, .plat-2__text-part3_titre-2_underline:after, .plat-2__text-part3_titre-3_underline:after, .plat-2__text-part3_titre-4_underline:after, .plat-3__text-part1_titre-1_underline:after, .plat-3__text-part1_titre-2_underline:after, .plat-3__text-part1_titre-3_underline:after, .plat-3__text-part1_titre-4_underline:after, .plat-3__text-part2_titre-1_underline:after, .plat-3__text-part2_titre-2_underline:after, .plat-3__text-part2_titre-3_underline:after, .plat-3__text-part2_titre-4_underline:after, .plat-3__text-part3_titre-1_underline:after, .plat-3__text-part3_titre-2_underline:after, .plat-3__text-part3_titre-3_underline:after, .plat-3__text-part3_titre-4_underline:after, .plat-4__text-part1_titre-1_underline:after, .plat-4__text-part1_titre-2_underline:after, .plat-4__text-part1_titre-3_underline:after, .plat-4__text-part1_titre-4_underline:after, .plat-4__text-part2_titre-1_underline:after, .plat-4__text-part2_titre-2_underline:after, .plat-4__text-part2_titre-3_underline:after, .plat-4__text-part2_titre-4_underline:after, .plat-4__text-part3_titre-1_underline:after, .plat-4__text-part3_titre-2_underline:after, .plat-4__text-part3_titre-3_underline:after, .plat-4__text-part3_titre-4_underline:after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 3px;
+  display: block;
+  margin-top: 3px;
+  right: 0;
+  transition: width 2s ease;
+  -webkit-transition: width 2s ease;
+}
+.plat-1__text-part1_titre-1_underline:hover:after, .plat-1__text-part1_titre-2_underline:hover:after, .plat-1__text-part1_titre-3_underline:hover:after, .plat-1__text-part1_titre-4_underline:hover:after, .plat-1__text-part2_titre-1_underline:hover:after, .plat-1__text-part2_titre-2_underline:hover:after, .plat-1__text-part2_titre-3_underline:hover:after, .plat-1__text-part2_titre-4_underline:hover:after, .plat-1__text-part3_titre-1_underline:hover:after, .plat-1__text-part3_titre-2_underline:hover:after, .plat-1__text-part3_titre-3_underline:hover:after, .plat-1__text-part3_titre-4_underline:hover:after, .plat-2__text-part1_titre-1_underline:hover:after, .plat-2__text-part1_titre-2_underline:hover:after, .plat-2__text-part1_titre-3_underline:hover:after, .plat-2__text-part1_titre-4_underline:hover:after, .plat-2__text-part2_titre-1_underline:hover:after, .plat-2__text-part2_titre-2_underline:hover:after, .plat-2__text-part2_titre-3_underline:hover:after, .plat-2__text-part2_titre-4_underline:hover:after, .plat-2__text-part3_titre-1_underline:hover:after, .plat-2__text-part3_titre-2_underline:hover:after, .plat-2__text-part3_titre-3_underline:hover:after, .plat-2__text-part3_titre-4_underline:hover:after, .plat-3__text-part1_titre-1_underline:hover:after, .plat-3__text-part1_titre-2_underline:hover:after, .plat-3__text-part1_titre-3_underline:hover:after, .plat-3__text-part1_titre-4_underline:hover:after, .plat-3__text-part2_titre-1_underline:hover:after, .plat-3__text-part2_titre-2_underline:hover:after, .plat-3__text-part2_titre-3_underline:hover:after, .plat-3__text-part2_titre-4_underline:hover:after, .plat-3__text-part3_titre-1_underline:hover:after, .plat-3__text-part3_titre-2_underline:hover:after, .plat-3__text-part3_titre-3_underline:hover:after, .plat-3__text-part3_titre-4_underline:hover:after, .plat-4__text-part1_titre-1_underline:hover:after, .plat-4__text-part1_titre-2_underline:hover:after, .plat-4__text-part1_titre-3_underline:hover:after, .plat-4__text-part1_titre-4_underline:hover:after, .plat-4__text-part2_titre-1_underline:hover:after, .plat-4__text-part2_titre-2_underline:hover:after, .plat-4__text-part2_titre-3_underline:hover:after, .plat-4__text-part2_titre-4_underline:hover:after, .plat-4__text-part3_titre-1_underline:hover:after, .plat-4__text-part3_titre-2_underline:hover:after, .plat-4__text-part3_titre-3_underline:hover:after, .plat-4__text-part3_titre-4_underline:hover:after {
+  width: 100%;
+  left: 0;
+}
 @media (min-width: 767px) {
   .plat-1__text-part1_titre-1, .plat-1__text-part1_titre-2, .plat-1__text-part1_titre-3, .plat-1__text-part1_titre-4, .plat-1__text-part2_titre-1, .plat-1__text-part2_titre-2, .plat-1__text-part2_titre-3, .plat-1__text-part2_titre-4, .plat-1__text-part3_titre-1, .plat-1__text-part3_titre-2, .plat-1__text-part3_titre-3, .plat-1__text-part3_titre-4, .plat-2__text-part1_titre-1, .plat-2__text-part1_titre-2, .plat-2__text-part1_titre-3, .plat-2__text-part1_titre-4, .plat-2__text-part2_titre-1, .plat-2__text-part2_titre-2, .plat-2__text-part2_titre-3, .plat-2__text-part2_titre-4, .plat-2__text-part3_titre-1, .plat-2__text-part3_titre-2, .plat-2__text-part3_titre-3, .plat-2__text-part3_titre-4, .plat-3__text-part1_titre-1, .plat-3__text-part1_titre-2, .plat-3__text-part1_titre-3, .plat-3__text-part1_titre-4, .plat-3__text-part2_titre-1, .plat-3__text-part2_titre-2, .plat-3__text-part2_titre-3, .plat-3__text-part2_titre-4, .plat-3__text-part3_titre-1, .plat-3__text-part3_titre-2, .plat-3__text-part3_titre-3, .plat-3__text-part3_titre-4, .plat-4__text-part1_titre-1, .plat-4__text-part1_titre-2, .plat-4__text-part1_titre-3, .plat-4__text-part1_titre-4, .plat-4__text-part2_titre-1, .plat-4__text-part2_titre-2, .plat-4__text-part2_titre-3, .plat-4__text-part2_titre-4, .plat-4__text-part3_titre-1, .plat-4__text-part3_titre-2, .plat-4__text-part3_titre-3, .plat-4__text-part3_titre-4 {
     display: flex;
@@ -304,6 +322,12 @@ body {
   -webkit-text-fill-color: transparent;
   font-family: "Noto Sans TC", sans-serif;
 }
+.plat-1__text-part1_titre-1_underline:after, .plat-1__text-part1_titre-2_underline:after, .plat-1__text-part1_titre-3_underline:after, .plat-1__text-part2_titre-1_underline:after, .plat-1__text-part2_titre-2_underline:after, .plat-1__text-part2_titre-3_underline:after, .plat-1__text-part3_titre-1_underline:after, .plat-1__text-part3_titre-2_underline:after, .plat-1__text-part3_titre-3_underline:after {
+  background: #311c17;
+}
+.plat-1__text-part1_titre-1_underline:after:hover, .plat-1__text-part1_titre-2_underline:after:hover, .plat-1__text-part1_titre-3_underline:after:hover, .plat-1__text-part2_titre-1_underline:after:hover, .plat-1__text-part2_titre-2_underline:after:hover, .plat-1__text-part2_titre-3_underline:after:hover, .plat-1__text-part3_titre-1_underline:after:hover, .plat-1__text-part3_titre-2_underline:after:hover, .plat-1__text-part3_titre-3_underline:after:hover {
+  background: #311c17;
+}
 .plat-2 {
   background-color: #f5fcff;
   color: #0f0e0e;
@@ -319,6 +343,12 @@ body {
   background: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
 }
 .plat-2__title__nom:after:hover {
+  background: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
+}
+.plat-2__text-part1_titre-1_underline:after, .plat-2__text-part1_titre-2_underline:after, .plat-2__text-part1_titre-3_underline:after, .plat-2__text-part2_titre-1_underline:after, .plat-2__text-part2_titre-2_underline:after, .plat-2__text-part2_titre-3_underline:after, .plat-2__text-part3_titre-1_underline:after, .plat-2__text-part3_titre-2_underline:after, .plat-2__text-part3_titre-3_underline:after {
+  background: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
+}
+.plat-2__text-part1_titre-1_underline:after:hover, .plat-2__text-part1_titre-2_underline:after:hover, .plat-2__text-part1_titre-3_underline:after:hover, .plat-2__text-part2_titre-1_underline:after:hover, .plat-2__text-part2_titre-2_underline:after:hover, .plat-2__text-part2_titre-3_underline:after:hover, .plat-2__text-part3_titre-1_underline:after:hover, .plat-2__text-part3_titre-2_underline:after:hover, .plat-2__text-part3_titre-3_underline:after:hover {
   background: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
 }
 .plat-3 {
@@ -340,11 +370,29 @@ body {
 .plat-3__text-part1 {
   color: #e0960b;
 }
+.plat-3__text-part1_titre-1_underline:after {
+  background: #e0960b;
+}
+.plat-3__text-part1_titre-1_underline:after:hover {
+  background: #e0960b;
+}
 .plat-3__text-part2 {
   color: #6c34b6;
 }
+.plat-3__text-part2_titre-2_underline:after {
+  background: #6c34b6;
+}
+.plat-3__text-part2_titre-2_underline:after:hover {
+  background: #6c34b6;
+}
 .plat-3__text-part3 {
   color: #34225f;
+}
+.plat-3__text-part3_titre-3_underline:after {
+  background: #34225f;
+}
+.plat-3__text-part3_titre-3_underline:after:hover {
+  background: #34225f;
 }
 .plat-4 {
   background-color: #fbfffb;
@@ -361,6 +409,12 @@ body {
   background: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
 }
 .plat-4__title__nom:after:hover {
+  background: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
+}
+.plat-4__text-part1_titre-1_underline:after, .plat-4__text-part1_titre-2_underline:after, .plat-4__text-part1_titre-3_underline:after, .plat-4__text-part2_titre-1_underline:after, .plat-4__text-part2_titre-2_underline:after, .plat-4__text-part2_titre-3_underline:after, .plat-4__text-part3_titre-1_underline:after, .plat-4__text-part3_titre-2_underline:after, .plat-4__text-part3_titre-3_underline:after {
+  background: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
+}
+.plat-4__text-part1_titre-1_underline:after:hover, .plat-4__text-part1_titre-2_underline:after:hover, .plat-4__text-part1_titre-3_underline:after:hover, .plat-4__text-part2_titre-1_underline:after:hover, .plat-4__text-part2_titre-2_underline:after:hover, .plat-4__text-part2_titre-3_underline:after:hover, .plat-4__text-part3_titre-1_underline:after:hover, .plat-4__text-part3_titre-2_underline:after:hover, .plat-4__text-part3_titre-3_underline:after:hover {
   background: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
 }
 
