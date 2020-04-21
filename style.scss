@@ -97,6 +97,7 @@ body {
       transition: transform 0.2s;
       &:hover {
         transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        filter: blur(1px);
       }
     }
     &__logo {
@@ -276,8 +277,8 @@ body {
           display: block;
           margin-top: 3px;
           right: 0;
-          transition: width 0.2s ease;
-          -webkit-transition: width 0.5s ease;
+          transition: width 2s ease;
+          -webkit-transition: width 2s ease;
         }
         &:hover:after {
           width: 100%;
@@ -286,11 +287,11 @@ body {
       }
     }
     &__text {
-      margin-right: 10%;
-      margin-left: 10%;
       &-part1,
       &-part2,
       &-part3 {
+        margin-right: 10%;
+        margin-left: 10%;
         &_titre-1,
         &_titre-2,
         &_titre-3,
