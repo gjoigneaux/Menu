@@ -35,6 +35,10 @@ body {
   margin: auto;
 }
 
+h2 {
+  margin: 0;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -303,21 +307,22 @@ body {
             width: 0px;
             height: 0px;
           }
-          &_underline{
+          &_underline {
             position: relative;
-            &:after{
-              content: '';
+            &:after {
+              content: "";
               position: absolute;
-              width: 0px; height: 3px;
+              width: 0px;
+              height: 3px;
               display: block;
               margin-top: 3px;
               right: 0;
               transition: width 2s ease;
               -webkit-transition: width 2s ease;
-              }
-            &:hover:after{
+            }
+            &:hover:after {
               width: 100%;
-              left: 0;                   
+              left: 0;
             }
           }
           @include breakpoint(small) {
@@ -375,10 +380,14 @@ body {
       }
     }
     &__text {
-      &-part1, &-part2, &-part3 {
-        &_titre-1, &_titre-2, &_titre-3{
-          &_underline{
-            &:after{
+      &-part1,
+      &-part2,
+      &-part3 {
+        &_titre-1,
+        &_titre-2,
+        &_titre-3 {
+          &_underline {
+            &:after {
               background: $color_menu1_text;
             }
             &:after:hover {
@@ -387,7 +396,7 @@ body {
           }
         }
       }
-    }  
+    }
   }
   &-2 {
     background-color: $backcolor_menu2;
@@ -408,10 +417,14 @@ body {
       }
     }
     &__text {
-      &-part1, &-part2, &-part3 {
-        &_titre-1, &_titre-2,&_titre-3{
-          &_underline{
-            &:after{
+      &-part1,
+      &-part2,
+      &-part3 {
+        &_titre-1,
+        &_titre-2,
+        &_titre-3 {
+          &_underline {
+            &:after {
               background: $color_menu2_text;
             }
             &:after:hover {
@@ -420,7 +433,7 @@ body {
           }
         }
       }
-    }  
+    }
   }
   &-3 {
     background-color: $backcolor_menu3;
@@ -442,9 +455,9 @@ body {
     &__text {
       &-part1 {
         color: $color_par1_menu3;
-        &_titre-1{
-          &_underline{
-            &:after{
+        &_titre-1 {
+          &_underline {
+            &:after {
               background: $color_par1_menu3;
             }
             &:after:hover {
@@ -455,9 +468,9 @@ body {
       }
       &-part2 {
         color: $color_par2_menu3;
-        &_titre-2{
-          &_underline{
-            &:after{
+        &_titre-2 {
+          &_underline {
+            &:after {
               background: $color_par2_menu3;
             }
             &:after:hover {
@@ -468,9 +481,9 @@ body {
       }
       &-part3 {
         color: $color_par3_menu3;
-        &_titre-3{
-          &_underline{
-            &:after{
+        &_titre-3 {
+          &_underline {
+            &:after {
               background: $color_par3_menu3;
             }
             &:after:hover {
@@ -500,10 +513,14 @@ body {
       }
     }
     &__text {
-      &-part1, &-part2, &-part3 {
-        &_titre-1, &_titre-2,&_titre-3{
-          &_underline{
-            &:after{
+      &-part1,
+      &-part2,
+      &-part3 {
+        &_titre-1,
+        &_titre-2,
+        &_titre-3 {
+          &_underline {
+            &:after {
               background: $color_menu4_text;
             }
             &:after:hover {
