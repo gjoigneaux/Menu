@@ -1,27 +1,26 @@
 @import "mixin.scss";
 
 //design menu1
-$family_menu1_text: "Dancing Script", cursive;
+$family_menu1_text: 'Devonshire', cursive;
 $color_menu1_text: #311c17;
-$family_menu1_logo: "Noto Sans TC", sans-serif;
 $color_menu1_logo: -webkit-gradient(linear, left top, right bottom, from(#ff0800), to(#ffe395));
 $backcolor_menu1: #fae3e6;
 
 //design menu2
-$family_menu2_text: "Pacifico", cursive;
+$family_menu2_text: "Dancing Script", cursive;
 $color_menu2_text: -webkit-gradient(linear, left top, right bottom, from(#1d0bc2), to(#3498b6));
 $backcolor_menu2: #f5fcff;
 $color_plat-prix_menu2-4: #0f0e0e;
 
 //design menu3
-$family_menu3_text: "Lobster", cursive;
+$family_menu3_text: 'Croissant One', cursive;
 $color_menu3_text: -webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
 $backcolor_menu3: #fff5f6;
 $color_par1_menu3: #e0960b;
 $color_par2_menu3: #6c34b6;
 $color_par3_menu3: #34225f;
 //design menu4
-$family_menu4_text: "Aladin", cursive;
+$family_menu4_text: 'Kaushan Script', cursive;
 $color_menu4_text: -webkit-gradient(linear, left top, right bottom, from(#0f700c), to(#a3f30d));
 $backcolor_menu4: #fbfffb;
 
@@ -100,37 +99,33 @@ h2 {
     &--zoom {
       transition: transform 0.2s;
       &:hover {
-        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-        filter: blur(1px);
+        transform: scale(1.05);
+        filter: opacity(60%);
       }
-    }
-    &__logo {
-      padding-top: 50%;
-      font-size: 3em;
-      font-style: normal;
     }
     &__nom {
       font-size: 2em;
+      margin-top: 50%;
     }
     &__text {
       padding-top: 10%;
-      font-size: 2.5em;
-      font-family: "Do Hyeon", sans-serif;
+      font-size: 2em;
     }
   }
   &-1 {
     background-color: $backcolor_menu1;
     color: $color_menu1_text;
-    &__logo {
-      padding-top: 33%;
-      font-family: $family_menu1_logo;
-      background: $color_menu1_logo;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
     &__nom {
       font-family: $family_menu1_text;
-      font-weight: bold;
+      font-weight: normal;
+      margin-top: 35%;
+      &:before {
+        content: "♫";
+        background: $color_menu1_logo;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: block;
+      }
     }
   }
   &-2 {
@@ -152,6 +147,7 @@ h2 {
       background: $color_menu3_text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      font-size: 1.5em;
     }
     &__text {
       color: #c27e00;
@@ -264,11 +260,9 @@ h2 {
     padding-bottom: 20px;
     &__title {
       font-size: 2em;
-      &__logo {
-        font-size: 2em;
-        font-style: normal;
-      }
+      text-align: center;
       &__nom {
+        padding-top: 50px;;
         position: relative;
         margin: auto;
         width: 300px;
@@ -343,7 +337,7 @@ h2 {
             display: flex;
             justify-content: space-between;
             margin-bottom: 25px;
-            font-size: 1.5em;
+            font-size: 1em;
             &__produit {
               margin-right: 25px;
               text-align: left;
@@ -364,19 +358,23 @@ h2 {
     font-family: $family_menu1_text;
     &__title {
       &__nom {
-        font-size: 1.4em;
+        font-size: 1.50em;
+        font-weight: normal;
+        margin-bottom: 100px;
         &:after {
           background: $color_menu1_text;
         }
         &:after:hover {
           background: $color_menu1_text;
         }
-      }
-      &__logo {
-        background: $color_menu1_logo;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: $family_menu1_logo;
+        &:before {
+          content: "♫";
+          background: $color_menu1_logo;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          display: block;
+          text-align: center;
+        }
       }
     }
     &__text {
@@ -396,6 +394,25 @@ h2 {
           }
         }
       }
+      &-part4{
+        font-size: 2.5em;
+        font-weight: normal;
+        margin-top: 50px;
+        text-align: center;
+        &:after {
+          background: $color_menu1_text;
+        }
+        &:after:hover {
+          background: $color_menu1_text;
+        }
+        &:before {
+          content: "♫";
+          background: $color_menu1_logo;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-align: center;
+        }
+      } 
     }
   }
   &-2 {
@@ -404,7 +421,7 @@ h2 {
     font-family: $family_menu2_text;
     &__title {
       &__nom {
-        font-size: 1.05em;
+        font-size: 1.20em;
         background: $color_menu2_text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -440,7 +457,7 @@ h2 {
     font-family: $family_menu3_text;
     &__title {
       &__nom {
-        font-size: 1.15em;
+        font-size: 0.8em;
         background: $color_menu3_text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -500,7 +517,7 @@ h2 {
     color: $color_plat-prix_menu2-4;
     &__title {
       &__nom {
-        font-size: 1.55em;
+        font-size: 1.3em;
         background: $color_menu4_text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
