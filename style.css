@@ -63,7 +63,6 @@ h2 {
   margin: auto;
   margin-bottom: 30px;
   text-align: center;
-  font-style: italic;
   border: solid 5px rgba(116, 158, 152, 0.05);
   border-radius: 3px;
   overflow: hidden;
@@ -81,7 +80,7 @@ h2 {
 }
 .menu-1__text, .menu-2__text, .menu-3__text, .menu-4__text {
   padding-top: 10%;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 .menu-1 {
   background-color: #fae3e6;
@@ -99,6 +98,10 @@ h2 {
   -webkit-text-fill-color: transparent;
   display: block;
 }
+.menu-1__text {
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+}
 .menu-2 {
   background-color: #f5fcff;
 }
@@ -110,6 +113,7 @@ h2 {
 }
 .menu-2__text {
   color: #3498b6;
+  font-family: "Caveat", cursive;
 }
 .menu-3 {
   background-color: #fff5f6;
@@ -123,6 +127,7 @@ h2 {
 }
 .menu-3__text {
   color: #c27e00;
+  font-family: "Cantata One", serif;
 }
 .menu-4 {
   background-color: #fbfffb;
@@ -135,6 +140,7 @@ h2 {
 }
 .menu-4__text {
   color: #18a813;
+  font-family: "Caveat", cursive;
 }
 
 .prochainement {
@@ -247,11 +253,14 @@ h2 {
 .plat-1__text-part1, .plat-1__text-part2, .plat-1__text-part3, .plat-2__text-part1, .plat-2__text-part2, .plat-2__text-part3, .plat-3__text-part1, .plat-3__text-part2, .plat-3__text-part3, .plat-4__text-part1, .plat-4__text-part2, .plat-4__text-part3 {
   margin-right: 10%;
   margin-left: 10%;
+  font-family: "PT Sans", sans-serif;
+  font-style: italic;
+  text-align: center;
 }
 .plat-1__text-part1_titre-1, .plat-1__text-part1_titre-2, .plat-1__text-part1_titre-3, .plat-1__text-part1_titre-4, .plat-1__text-part2_titre-1, .plat-1__text-part2_titre-2, .plat-1__text-part2_titre-3, .plat-1__text-part2_titre-4, .plat-1__text-part3_titre-1, .plat-1__text-part3_titre-2, .plat-1__text-part3_titre-3, .plat-1__text-part3_titre-4, .plat-2__text-part1_titre-1, .plat-2__text-part1_titre-2, .plat-2__text-part1_titre-3, .plat-2__text-part1_titre-4, .plat-2__text-part2_titre-1, .plat-2__text-part2_titre-2, .plat-2__text-part2_titre-3, .plat-2__text-part2_titre-4, .plat-2__text-part3_titre-1, .plat-2__text-part3_titre-2, .plat-2__text-part3_titre-3, .plat-2__text-part3_titre-4, .plat-3__text-part1_titre-1, .plat-3__text-part1_titre-2, .plat-3__text-part1_titre-3, .plat-3__text-part1_titre-4, .plat-3__text-part2_titre-1, .plat-3__text-part2_titre-2, .plat-3__text-part2_titre-3, .plat-3__text-part2_titre-4, .plat-3__text-part3_titre-1, .plat-3__text-part3_titre-2, .plat-3__text-part3_titre-3, .plat-3__text-part3_titre-4, .plat-4__text-part1_titre-1, .plat-4__text-part1_titre-2, .plat-4__text-part1_titre-3, .plat-4__text-part1_titre-4, .plat-4__text-part2_titre-1, .plat-4__text-part2_titre-2, .plat-4__text-part2_titre-3, .plat-4__text-part2_titre-4, .plat-4__text-part3_titre-1, .plat-4__text-part3_titre-2, .plat-4__text-part3_titre-3, .plat-4__text-part3_titre-4 {
   margin-top: 30px;
   margin-bottom: 30px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 .plat-1__text-part1_titre-1 img, .plat-1__text-part1_titre-2 img, .plat-1__text-part1_titre-3 img, .plat-1__text-part1_titre-4 img, .plat-1__text-part2_titre-1 img, .plat-1__text-part2_titre-2 img, .plat-1__text-part2_titre-3 img, .plat-1__text-part2_titre-4 img, .plat-1__text-part3_titre-1 img, .plat-1__text-part3_titre-2 img, .plat-1__text-part3_titre-3 img, .plat-1__text-part3_titre-4 img, .plat-2__text-part1_titre-1 img, .plat-2__text-part1_titre-2 img, .plat-2__text-part1_titre-3 img, .plat-2__text-part1_titre-4 img, .plat-2__text-part2_titre-1 img, .plat-2__text-part2_titre-2 img, .plat-2__text-part2_titre-3 img, .plat-2__text-part2_titre-4 img, .plat-2__text-part3_titre-1 img, .plat-2__text-part3_titre-2 img, .plat-2__text-part3_titre-3 img, .plat-2__text-part3_titre-4 img, .plat-3__text-part1_titre-1 img, .plat-3__text-part1_titre-2 img, .plat-3__text-part1_titre-3 img, .plat-3__text-part1_titre-4 img, .plat-3__text-part2_titre-1 img, .plat-3__text-part2_titre-2 img, .plat-3__text-part2_titre-3 img, .plat-3__text-part2_titre-4 img, .plat-3__text-part3_titre-1 img, .plat-3__text-part3_titre-2 img, .plat-3__text-part3_titre-3 img, .plat-3__text-part3_titre-4 img, .plat-4__text-part1_titre-1 img, .plat-4__text-part1_titre-2 img, .plat-4__text-part1_titre-3 img, .plat-4__text-part1_titre-4 img, .plat-4__text-part2_titre-1 img, .plat-4__text-part2_titre-2 img, .plat-4__text-part2_titre-3 img, .plat-4__text-part2_titre-4 img, .plat-4__text-part3_titre-1 img, .plat-4__text-part3_titre-2 img, .plat-4__text-part3_titre-3 img, .plat-4__text-part3_titre-4 img {
   width: 0px;
@@ -283,7 +292,7 @@ h2 {
   .plat-1__text-part1_titre-1 img, .plat-1__text-part1_titre-2 img, .plat-1__text-part1_titre-3 img, .plat-1__text-part1_titre-4 img, .plat-1__text-part2_titre-1 img, .plat-1__text-part2_titre-2 img, .plat-1__text-part2_titre-3 img, .plat-1__text-part2_titre-4 img, .plat-1__text-part3_titre-1 img, .plat-1__text-part3_titre-2 img, .plat-1__text-part3_titre-3 img, .plat-1__text-part3_titre-4 img, .plat-2__text-part1_titre-1 img, .plat-2__text-part1_titre-2 img, .plat-2__text-part1_titre-3 img, .plat-2__text-part1_titre-4 img, .plat-2__text-part2_titre-1 img, .plat-2__text-part2_titre-2 img, .plat-2__text-part2_titre-3 img, .plat-2__text-part2_titre-4 img, .plat-2__text-part3_titre-1 img, .plat-2__text-part3_titre-2 img, .plat-2__text-part3_titre-3 img, .plat-2__text-part3_titre-4 img, .plat-3__text-part1_titre-1 img, .plat-3__text-part1_titre-2 img, .plat-3__text-part1_titre-3 img, .plat-3__text-part1_titre-4 img, .plat-3__text-part2_titre-1 img, .plat-3__text-part2_titre-2 img, .plat-3__text-part2_titre-3 img, .plat-3__text-part2_titre-4 img, .plat-3__text-part3_titre-1 img, .plat-3__text-part3_titre-2 img, .plat-3__text-part3_titre-3 img, .plat-3__text-part3_titre-4 img, .plat-4__text-part1_titre-1 img, .plat-4__text-part1_titre-2 img, .plat-4__text-part1_titre-3 img, .plat-4__text-part1_titre-4 img, .plat-4__text-part2_titre-1 img, .plat-4__text-part2_titre-2 img, .plat-4__text-part2_titre-3 img, .plat-4__text-part2_titre-4 img, .plat-4__text-part3_titre-1 img, .plat-4__text-part3_titre-2 img, .plat-4__text-part3_titre-3 img, .plat-4__text-part3_titre-4 img {
     width: 20%;
     height: 10px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
 }
 .plat-1__text-part1_paragraphe-1, .plat-1__text-part1_paragraphe-2, .plat-1__text-part1_paragraphe-3, .plat-1__text-part1_paragraphe-4, .plat-1__text-part2_paragraphe-1, .plat-1__text-part2_paragraphe-2, .plat-1__text-part2_paragraphe-3, .plat-1__text-part2_paragraphe-4, .plat-1__text-part3_paragraphe-1, .plat-1__text-part3_paragraphe-2, .plat-1__text-part3_paragraphe-3, .plat-1__text-part3_paragraphe-4, .plat-2__text-part1_paragraphe-1, .plat-2__text-part1_paragraphe-2, .plat-2__text-part1_paragraphe-3, .plat-2__text-part1_paragraphe-4, .plat-2__text-part2_paragraphe-1, .plat-2__text-part2_paragraphe-2, .plat-2__text-part2_paragraphe-3, .plat-2__text-part2_paragraphe-4, .plat-2__text-part3_paragraphe-1, .plat-2__text-part3_paragraphe-2, .plat-2__text-part3_paragraphe-3, .plat-2__text-part3_paragraphe-4, .plat-3__text-part1_paragraphe-1, .plat-3__text-part1_paragraphe-2, .plat-3__text-part1_paragraphe-3, .plat-3__text-part1_paragraphe-4, .plat-3__text-part2_paragraphe-1, .plat-3__text-part2_paragraphe-2, .plat-3__text-part2_paragraphe-3, .plat-3__text-part2_paragraphe-4, .plat-3__text-part3_paragraphe-1, .plat-3__text-part3_paragraphe-2, .plat-3__text-part3_paragraphe-3, .plat-3__text-part3_paragraphe-4, .plat-4__text-part1_paragraphe-1, .plat-4__text-part1_paragraphe-2, .plat-4__text-part1_paragraphe-3, .plat-4__text-part1_paragraphe-4, .plat-4__text-part2_paragraphe-1, .plat-4__text-part2_paragraphe-2, .plat-4__text-part2_paragraphe-3, .plat-4__text-part2_paragraphe-4, .plat-4__text-part3_paragraphe-1, .plat-4__text-part3_paragraphe-2, .plat-4__text-part3_paragraphe-3, .plat-4__text-part3_paragraphe-4 {
@@ -378,7 +387,8 @@ h2 {
   font-family: "Croissant One", cursive;
 }
 .plat-3__title__nom {
-  font-size: 0.8em;
+  width: 375px;
+  font-size: 1em;
   background: -webkit-gradient(linear, left top, right bottom, from(#e0960b), to(#6c34b6));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

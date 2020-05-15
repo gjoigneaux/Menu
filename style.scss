@@ -92,7 +92,6 @@ h2 {
     margin: auto;
     margin-bottom: 30px;
     text-align: center;
-    font-style: italic;
     border: solid 5px rgba($color: #749e98, $alpha: 0.05);
     border-radius: 3px;
     overflow: hidden;
@@ -109,7 +108,7 @@ h2 {
     }
     &__text {
       padding-top: 10%;
-      font-size: 2em;
+      font-size: 2.5em;
     }
   }
   &-1 {
@@ -127,6 +126,10 @@ h2 {
         display: block;
       }
     }
+    &__text {
+      font-family: 'Caveat', cursive;
+      font-weight: 600;
+    }
   }
   &-2 {
     background-color: $backcolor_menu2;
@@ -138,6 +141,7 @@ h2 {
     }
     &__text {
       color: #3498b6;
+      font-family: 'Caveat', cursive;
     }
   }
   &-3 {
@@ -151,6 +155,7 @@ h2 {
     }
     &__text {
       color: #c27e00;
+      font-family: 'Cantata One', serif;
     }
   }
   &-4 {
@@ -163,6 +168,7 @@ h2 {
     }
     &__text {
       color: #18a813;
+      font-family: 'Caveat', cursive;
     }
   }
 }
@@ -290,16 +296,20 @@ h2 {
       &-part3 {
         margin-right: 10%;
         margin-left: 10%;
+        font-family: 'PT Sans', sans-serif;
+        font-style: italic;
+        text-align: center;
         &_titre-1,
         &_titre-2,
         &_titre-3,
         &_titre-4 {
           margin-top: 30px;
           margin-bottom: 30px;
-          font-size: 2em;
+          font-size: 1.5em;
           img {
             width: 0px;
             height: 0px;
+           
           }
           &_underline {
             position: relative;
@@ -325,7 +335,7 @@ h2 {
             img {
               width: 20%;
               height: 10px;
-              padding-top: 20px;
+              padding-top: 10px;
             }
           }
         }
@@ -457,7 +467,8 @@ h2 {
     font-family: $family_menu3_text;
     &__title {
       &__nom {
-        font-size: 0.8em;
+        width: 375px;
+        font-size: 1em;
         background: $color_menu3_text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
