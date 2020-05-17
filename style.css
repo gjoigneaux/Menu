@@ -32,6 +32,7 @@ h2 {
   min-width: 300px;
   text-align: center;
   display: flex;
+  font-family: "Roboto", sans-serif;
 }
 .header a {
   font-weight: bold;
@@ -179,6 +180,7 @@ h2 {
   right: 0;
   font-size: 1.75em;
   display: flex;
+  font-family: "Roboto", sans-serif;
 }
 .footer a {
   text-decoration: none;
@@ -217,12 +219,21 @@ h2 {
 }
 
 /* PAGE */
+h1 {
+  text-align: center;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
 .plat {
   text-align: center;
   width: 100%;
 }
 .plat-1, .plat-2, .plat-3, .plat-4 {
+  margin: 0 0px 50px 0px;
+  border-radius: 10px;
   padding-bottom: 20px;
+  font-family: "Roboto", sans-serif;
 }
 .plat-1__title, .plat-2__title, .plat-3__title, .plat-4__title {
   font-size: 2em;
