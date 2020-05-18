@@ -153,6 +153,7 @@ h2 {
   margin: auto;
   border-radius: 10px;
   overflow: hidden;
+  font-family: "Roboto", sans-serif;
 }
 .prochainement:after {
   overflow: hidden;
